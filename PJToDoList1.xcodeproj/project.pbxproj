@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0463B22C1DCCF58700D3296D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463B22B1DCCF58700D3296D /* main.m */; };
+		0463B22F1DCCF58700D3296D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463B22E1DCCF58700D3296D /* AppDelegate.m */; };
+		0463B2321DCCF58700D3296D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463B2311DCCF58700D3296D /* FirstViewController.m */; };
+		0463B2351DCCF58700D3296D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463B2341DCCF58700D3296D /* SecondViewController.m */; };
+		0463B2381DCCF58700D3296D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0463B2361DCCF58700D3296D /* Main.storyboard */; };
+		0463B23A1DCCF58800D3296D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0463B2391DCCF58800D3296D /* Assets.xcassets */; };
+		0463B23D1DCCF58800D3296D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0463B23B1DCCF58800D3296D /* LaunchScreen.storyboard */; };
+		0463B2451DCCFCF100D3296D /* Pragati Jawale.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0463B2441DCCFCF100D3296D /* Pragati Jawale.sqlite */; };
+		0463B24E1DCCFFE700D3296D /* PJDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463B24D1DCCFFE700D3296D /* PJDataBaseManager.m */; };
+		0463B2501DCD007A00D3296D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0463B24F1DCD007A00D3296D /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0463B2271DCCF58700D3296D /* PJToDoList1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJToDoList1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0463B22B1DCCF58700D3296D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0463B22D1DCCF58700D3296D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0463B22E1DCCF58700D3296D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0463B2301DCCF58700D3296D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0463B2311DCCF58700D3296D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0463B2331DCCF58700D3296D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0463B2341DCCF58700D3296D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0463B2371DCCF58700D3296D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0463B2391DCCF58800D3296D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0463B23C1DCCF58800D3296D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0463B23E1DCCF58800D3296D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0463B2441DCCFCF100D3296D /* Pragati Jawale.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pragati Jawale.sqlite"; sourceTree = "<group>"; };
+		0463B24C1DCCFFE700D3296D /* PJDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJDataBaseManager.h; sourceTree = "<group>"; };
+		0463B24D1DCCFFE700D3296D /* PJDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJDataBaseManager.m; sourceTree = "<group>"; };
+		0463B24F1DCD007A00D3296D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0463B2241DCCF58700D3296D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0463B2501DCD007A00D3296D /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0463B21E1DCCF58700D3296D = {
+			isa = PBXGroup;
+			children = (
+				0463B24F1DCD007A00D3296D /* libsqlite3.tbd */,
+				0463B2291DCCF58700D3296D /* PJToDoList1 */,
+				0463B2281DCCF58700D3296D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0463B2281DCCF58700D3296D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0463B2271DCCF58700D3296D /* PJToDoList1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0463B2291DCCF58700D3296D /* PJToDoList1 */ = {
+			isa = PBXGroup;
+			children = (
+				0463B2441DCCFCF100D3296D /* Pragati Jawale.sqlite */,
+				0463B22D1DCCF58700D3296D /* AppDelegate.h */,
+				0463B22E1DCCF58700D3296D /* AppDelegate.m */,
+				0463B24D1DCCFFE700D3296D /* PJDataBaseManager.m */,
+				0463B24C1DCCFFE700D3296D /* PJDataBaseManager.h */,
+				0463B2301DCCF58700D3296D /* FirstViewController.h */,
+				0463B2311DCCF58700D3296D /* FirstViewController.m */,
+				0463B2331DCCF58700D3296D /* SecondViewController.h */,
+				0463B2341DCCF58700D3296D /* SecondViewController.m */,
+				0463B2361DCCF58700D3296D /* Main.storyboard */,
+				0463B2391DCCF58800D3296D /* Assets.xcassets */,
+				0463B23B1DCCF58800D3296D /* LaunchScreen.storyboard */,
+				0463B23E1DCCF58800D3296D /* Info.plist */,
+				0463B22A1DCCF58700D3296D /* Supporting Files */,
+			);
+			path = PJToDoList1;
+			sourceTree = "<group>";
+		};
+		0463B22A1DCCF58700D3296D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0463B22B1DCCF58700D3296D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0463B2261DCCF58700D3296D /* PJToDoList1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0463B2411DCCF58800D3296D /* Build configuration list for PBXNativeTarget "PJToDoList1" */;
+			buildPhases = (
+				0463B2231DCCF58700D3296D /* Sources */,
+				0463B2241DCCF58700D3296D /* Frameworks */,
+				0463B2251DCCF58700D3296D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PJToDoList1;
+			productName = PJToDoList1;
+			productReference = 0463B2271DCCF58700D3296D /* PJToDoList1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0463B21F1DCCF58700D3296D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pragati Jawale";
+				TargetAttributes = {
+					0463B2261DCCF58700D3296D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0463B2221DCCF58700D3296D /* Build configuration list for PBXProject "PJToDoList1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0463B21E1DCCF58700D3296D;
+			productRefGroup = 0463B2281DCCF58700D3296D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0463B2261DCCF58700D3296D /* PJToDoList1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0463B2251DCCF58700D3296D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0463B23D1DCCF58800D3296D /* LaunchScreen.storyboard in Resources */,
+				0463B2451DCCFCF100D3296D /* Pragati Jawale.sqlite in Resources */,
+				0463B23A1DCCF58800D3296D /* Assets.xcassets in Resources */,
+				0463B2381DCCF58700D3296D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0463B2231DCCF58700D3296D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0463B2351DCCF58700D3296D /* SecondViewController.m in Sources */,
+				0463B22F1DCCF58700D3296D /* AppDelegate.m in Sources */,
+				0463B24E1DCCFFE700D3296D /* PJDataBaseManager.m in Sources */,
+				0463B2321DCCF58700D3296D /* FirstViewController.m in Sources */,
+				0463B22C1DCCF58700D3296D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0463B2361DCCF58700D3296D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0463B2371DCCF58700D3296D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0463B23B1DCCF58800D3296D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0463B23C1DCCF58800D3296D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0463B23F1DCCF58800D3296D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0463B2401DCCF58800D3296D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0463B2421DCCF58800D3296D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PJToDoList1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pragati.PJToDoList1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0463B2431DCCF58800D3296D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PJToDoList1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pragati.PJToDoList1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0463B2221DCCF58700D3296D /* Build configuration list for PBXProject "PJToDoList1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0463B23F1DCCF58800D3296D /* Debug */,
+				0463B2401DCCF58800D3296D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0463B2411DCCF58800D3296D /* Build configuration list for PBXNativeTarget "PJToDoList1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0463B2421DCCF58800D3296D /* Debug */,
+				0463B2431DCCF58800D3296D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0463B21F1DCCF58700D3296D /* Project object */;
+}
