@@ -17,11 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSString *sourcePath = [[NSBundle mainBundle]pathForResource:@"PJDatabase" ofType:@"sqlite"];
+    NSString *sourcePath = [[NSBundle mainBundle]pathForResource:@"pragatijawale" ofType:@"sqlite"];
     
     NSLog(@"%@",sourcePath);
     
-    NSString *destinationPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/PJDatabase.sqlite"];
+    NSString *destinationPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/SBDatabase.sqlite"];
     
     NSLog(@"%@",destinationPath);
     

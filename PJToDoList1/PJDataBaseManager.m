@@ -21,7 +21,7 @@
 }
 -(NSString *)getDatabasePath {
     
-    return [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/DPDatabase.sqlite"];
+    return [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/SBDataBase.sqlite"];
 }
 -(int)executeQuery:(NSString *)query {
     
@@ -48,38 +48,34 @@
     return success;
 }
 -(NSMutableArray *)getAllTask {
-    
-    NSMutableArray *myArray = [[NSMutableArray alloc]init];
+    NSMutableArray *mArray = [[NSMutableArray alloc]init];
     
     sqlite3_stmt *statement;
     
-    NSString *query = @"SELECT TASK FROM TASK_TABLE";
+    NSString *query = @"SELECT * FROM TASK_TABLE";
     
     const char *UTFquery = [query UTF8String];
-    const char *UTFDatabasePath = [[self getDatabasePath]UTF8String];
+    const char *UTFDatabsePath =[[self getDatabasePath]UTF8String];
     
-    if(sqlite3_open(UTFDatabasePath,&myDB) == SQLITE_OK) {
+    if (sqlite3_open(UTFDatabsePath, &myDB) == SQLITE_OK) {
+        NSLog(@"Open");
         
-        if(sqlite3_prepare_v2(myDB, UTFquery, -1, &statement, NULL) == SQLITE_OK) {
+        if (sqlite3_prepare_v2(myDB, UTFquery, -1, &statement, nil) == SQLITE_OK) {
             
             while (sqlite3_step(statement) == SQLITE_ROW) {
                 
-                const char *taskString = (const char *)sqlite3_column_text(statement, 0);
+                const char * taskString = (const char *)sqlite3_column_text(statement, 1);
                 
                 NSString *task = [NSString stringWithUTF8String:taskString];
+                NSLog(@"\n\nTask %@",task);
                 
-                [myArray addObject:task];
+                [mArray addObject:task];
             }
-        }
-        else {
-            NSLog(@"%s",sqlite3_errmsg(myDB));
         }
         sqlite3_close(myDB);
     }
-    else {
-        NSLog(@"%s",sqlite3_errmsg(myDB));
-    }
-    return myArray;
+    return mArray;
+    
 }
 
 

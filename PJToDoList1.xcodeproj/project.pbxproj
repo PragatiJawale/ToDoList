@@ -14,9 +14,9 @@
 		0463B2381DCCF58700D3296D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0463B2361DCCF58700D3296D /* Main.storyboard */; };
 		0463B23A1DCCF58800D3296D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0463B2391DCCF58800D3296D /* Assets.xcassets */; };
 		0463B23D1DCCF58800D3296D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0463B23B1DCCF58800D3296D /* LaunchScreen.storyboard */; };
-		0463B2451DCCFCF100D3296D /* Pragati Jawale.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0463B2441DCCFCF100D3296D /* Pragati Jawale.sqlite */; };
 		0463B24E1DCCFFE700D3296D /* PJDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0463B24D1DCCFFE700D3296D /* PJDataBaseManager.m */; };
 		0463B2501DCD007A00D3296D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0463B24F1DCD007A00D3296D /* libsqlite3.tbd */; };
+		04E554E31DCDF70500121A0D /* pragatijawale.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 04E554E21DCDF70500121A0D /* pragatijawale.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +32,10 @@
 		0463B2391DCCF58800D3296D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0463B23C1DCCF58800D3296D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0463B23E1DCCF58800D3296D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0463B2441DCCFCF100D3296D /* Pragati Jawale.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pragati Jawale.sqlite"; sourceTree = "<group>"; };
 		0463B24C1DCCFFE700D3296D /* PJDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJDataBaseManager.h; sourceTree = "<group>"; };
 		0463B24D1DCCFFE700D3296D /* PJDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJDataBaseManager.m; sourceTree = "<group>"; };
 		0463B24F1DCD007A00D3296D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		04E554E21DCDF70500121A0D /* pragatijawale.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = pragatijawale.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		0463B2291DCCF58700D3296D /* PJToDoList1 */ = {
 			isa = PBXGroup;
 			children = (
-				0463B2441DCCFCF100D3296D /* Pragati Jawale.sqlite */,
+				04E554E21DCDF70500121A0D /* pragatijawale.sqlite */,
 				0463B22D1DCCF58700D3296D /* AppDelegate.h */,
 				0463B22E1DCCF58700D3296D /* AppDelegate.m */,
 				0463B24D1DCCFFE700D3296D /* PJDataBaseManager.m */,
@@ -153,8 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E554E31DCDF70500121A0D /* pragatijawale.sqlite in Resources */,
 				0463B23D1DCCF58800D3296D /* LaunchScreen.storyboard in Resources */,
-				0463B2451DCCFCF100D3296D /* Pragati Jawale.sqlite in Resources */,
 				0463B23A1DCCF58800D3296D /* Assets.xcassets in Resources */,
 				0463B2381DCCF58700D3296D /* Main.storyboard in Resources */,
 			);
